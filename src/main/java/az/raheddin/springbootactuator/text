@@ -1,0 +1,18 @@
+docker pull prom/prometheus
+
+docker images
+
+docker run -p 9090:9090 -v ~/spring-boot-actuator/src/main/resources/prometheus.yml prom/prometheus
+
+docker run -d --name=grafanaRaheddin -p 3000:3000  grafana/grafana
+
+Grafana add edende oz lokal ipni yamaq lazimdir
+
+
+http://localhost:3000/
+http://10.11.0.69:9090/
+
+
+
+
+
